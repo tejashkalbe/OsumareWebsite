@@ -1,0 +1,226 @@
+nav{
+  /* border: 1px solid red; */
+  max-width: 1440px;
+  min-width: 350px;
+  height: 108px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.64);
+  backdrop-filter: blur(16px);
+  z-index: 1;
+}
+
+nav > button{
+  width: 216px;
+  height:44px;
+  border-radius: 32px;
+  border: 1px solid black;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+nav > img{
+  width: 172px;
+  height: 100px;
+}
+
+.header{
+  max-width:889px;
+  height:284px;
+  margin:10px auto;
+  margin-top: -60px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bghouse{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1040px;
+  max-width:1435px;
+  flex-shrink: 0;
+  opacity: 0.9;
+  background: url(../../assets/header1.png) lightgray 0px -38.568px / 100% 94.869% no-repeat;
+  backdrop-filter: blur(20px);;
+  z-index: -999 !important;
+}
+
+.header h3{
+  font-weight: 500px;
+  font-size: 48px;
+  line-height: 72px;
+  text-align:center;
+}
+
+.header span{
+  font-weight: 700;
+  color:#0078ff;
+}
+
+.header p{
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.header > button{
+  width:408px;
+  padding: 13px 136px;
+  border-radius: 32px;
+  background-color: #0078ff;
+  border: none;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.house img{
+  flex-shrink: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.house{
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  margin-bottom: -200px;
+  max-width: 796px;
+  height: 538px;
+}
+
+
+@media screen and (max-width:768px) {
+  
+  .house{
+    height: 330px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .house img{
+    max-width: 60%;
+  }
+  nav > img{
+    width: 100px;
+    height: 50px;
+  }
+  nav > button{
+    width: 125px;
+    height:30px;
+    padding: 3px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  nav{
+    height: 75px;
+  }
+  .bghouse{
+    height: 675px;
+    padding-top: 250px;
+  }  
+
+  .header{
+    margin-top: -150px;
+  }
+    .header h3{
+      font-size: 40px;
+      line-height: 60px;
+      padding: 0 20px;
+    }
+    
+    .header span{
+      font-weight: 700;
+      color:#0078ff;
+    }
+    
+    .header p{
+      padding: 0 20px;
+      font-size: 22px;
+      text-align: center;
+      color: #333;
+      font-weight: 400;
+      line-height: 26px;
+    }
+    .header > button{
+      width:258px;
+      padding: 15px 40px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 16px;
+    }
+}
+@media screen and (max-width:425px) {
+  .house{
+    height: 230px;
+  }
+  .house img{
+    max-width: 80%;
+  }
+  .bghouse{
+    height: 625px;
+  }
+/* 
+  nav > img{
+    width: 100px;
+    height: 50px;
+  }
+  nav > button{
+    width: 125px;
+    height:30px;
+    padding: 3px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+  } */
+  nav{
+    height: 66px;
+  }
+  .bghouse{
+    padding-top: 75px;
+  }
+.header{
+  margin-top: -30px;
+}
+  .header h3{
+    font-size: 26px;
+    line-height: 32px;
+    padding: 0 20px;
+  }
+  
+  .header span{
+    font-weight: 700;
+    color:#0078ff;
+  }
+  
+  .header p{
+    padding: 0 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .header > button{
+    width:208px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+}
